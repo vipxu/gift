@@ -172,7 +172,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px 微软雅黑,Verdana";
-            ctx.fillText("思齐！点我", 20, 12);
+            ctx.fillText("橘子！点我", 20, 12);
             ctx.restore();
         },
         clear: function() {
