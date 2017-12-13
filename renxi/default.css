@@ -15,3 +15,11 @@ margin-top:55px;}
 .say{margin-left:5px;}
 .space{margin-right:150px;}
 .hf{text-shadow:5px 5px 5px #FF0000;font-size: 18px;font-family:sans-serif;color: #f7f706}
+.footerNext{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 90px;
+    z-index: 9999;
+}
