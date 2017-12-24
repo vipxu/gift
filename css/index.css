@@ -1033,6 +1033,7 @@ section.effect-in {
 }
 .footerNext{
   position: fixed;
+  display: none;
   right: 0;
   bottom: 0;
   width: 80px;

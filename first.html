@@ -5,7 +5,9 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>圣诞主题</title>
     <link rel='stylesheet' href='css/index.css' />
+    <link rel='stylesheet' href='css/animate.min.css' />
 </head>
+
 <body>
     <section class="container">
         <!-- 第一幅画面 -->
@@ -88,8 +90,16 @@
         </section>
     </section>
     <div class="footerNext" onclick="javascript:location.href='two.html'">
-        <img src="images/footerNextbg.png" alt="" style="width:80px;height:90px" >
+        <img src="images/footerNextbg.png" alt="" style="width:80px;height:90px">
     </div>
 </body>
 </html>
 <script type="text/javascript" src="js/index.js"></script>
+<script>
+    window.onload = function () {
+        setTimeout(function () {
+            $('.footerNext').show();
+            $('.footerNext').addClass('animated fadeInDownBig');
+        }, 360000)
+    }
+</script>

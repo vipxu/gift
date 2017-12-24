@@ -337,6 +337,7 @@
         }
         .footerNext{
             position: fixed;
+            display: none;
             right: 0;
             bottom: 0;
             width: 80px;
@@ -344,6 +345,7 @@
             z-index: 9999;
         }
     </style>
+    <link rel='stylesheet' href='css/animate.min.css' />
 </head>
 <!-- 禁止用户选中网页上的内容，IE及Chrome下的方法一样，使用 onselectstart="return false"
       -- Firefox 下，控制 css: body {-moz-user-select: none;}
@@ -555,5 +557,13 @@
         }
     </script>
 </body>
-
 </html>
+<script type="text/javascript" src="js/twopag/jquery-1.11.0.min.js"></script>
+<script>
+        window.onload = function () {
+            setTimeout(function () {
+                $('.footerNext').show();
+                $('.footerNext').addClass('animated fadeInDownBig');
+            }, 2000)
+        }
+    </script>
