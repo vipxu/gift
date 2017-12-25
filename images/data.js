@@ -241,8 +241,6 @@ var dataStr =
 ·快把头发长起来。<br>\
 ·我要看你长发的样子。<br>\
 ·那是还特地去听了首《那个短发姑娘》<br>\
-<br>\
-<br>\
 ';
 var d = dataStr.split('<br><br><br>');
 for (var i = 0; i < d.length; i++) {
